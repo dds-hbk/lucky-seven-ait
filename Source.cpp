@@ -76,7 +76,7 @@ void start() {
 	printf("AIT19A - illegaler Gl%csspielring \n", 129);
 }
 
-void main() {
+int main() {
 	bool gewinn_main;
 	int range_main, wdh_main;
 	const char ch[] = "dml7";
@@ -90,4 +90,5 @@ void main() {
 			printf("\n\nNiederlage\n\n");
 		wdh_main = eingabe(2);
 	} while (wdh_main != 1);
+	return 0;
 }
