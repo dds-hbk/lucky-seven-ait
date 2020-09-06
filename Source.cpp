@@ -85,7 +85,7 @@ int main() {
 		range_main = eingabe(1);
 		gewinn_main = gewinn(range_main);
 		if (gewinn_main == true)
-			printf("\n\n\a\a\a\a\aGewinn!!!!!!!!!!!!\n\n");
+			printf("\n\n\aGewinn!\n\n");
 		else
 			printf("\n\nNiederlage\n\n");
 		wdh_main = eingabe(2);
